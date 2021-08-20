@@ -254,9 +254,7 @@ get_header(); ?>
 					<?php } ?>
 				</div>
 			</div>
-			<div class="col-md-3">
-			
-			</div>
+			<?php get_template_part('sidebar') ?>
 		</div>
 	</div>
 </div>
