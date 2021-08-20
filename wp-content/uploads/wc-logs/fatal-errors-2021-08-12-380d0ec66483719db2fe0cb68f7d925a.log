@@ -1,0 +1,780 @@
+2021-08-12T04:54:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in H:\xampp\htdocs\naturallycurly\wp-includes\wp-db.php on line 2056
+
+2021-08-12T06:18:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in H:\xampp\htdocs\naturallycurly\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-08-12T06:19:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in H:\xampp\htdocs\naturallycurly\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-08-12T10:22:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in H:\xampp\htdocs\naturallycurly\wp-includes\wp-db.php on line 2056
+
+2021-08-12T11:52:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T11:54:09+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T11:54:47+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T11:55:10+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T11:56:35+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:02:35+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:04:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:05:14+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:05:38+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:06:36+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:06:48+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:11:27+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:11:49+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:12:08+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:12:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:12:24+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:12:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:15:22+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:18:25+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:19:05+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:19:34+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:20:23+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:23:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:23:51+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:24:14+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:24:52+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:25:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:26:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:27:10+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:27:14+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:27:46+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:29:06+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:30:54+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:32:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:32:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:32:41+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:32:50+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:42:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:44:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:44:36+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:45:42+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:50:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:51:03+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:51:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:51:24+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:51:33+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:53:56+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:58:55+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:59:43+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T12:59:59+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:01:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:01:07+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:01:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:01:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:01:49+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:03:06+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:03:33+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:04:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:09:00+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:09:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:13:25+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:13:41+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:14:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:14:52+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:15:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:22:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:26:00+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:27:28+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:28:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:28:52+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:29:41+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:32:54+00:00 CRITICAL Uncaught Error: Class 'TwentyTwenty_Walker_Comment' not found in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\comments.php:63
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\comment-template.php(1554): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\plugins\customer-reviews-woocommerce\ivole.php(94): comments_template('/comments.php')
+#2 H:\xampp\htdocs\naturallycurly\wp-content\plugins\customer-reviews-woocommerce\ivole.php(86): ivole_return_comment_form('/comments.php')
+#3 H:\xampp\htdocs\naturallycurly\wp-includes\shortcodes.php(356): ivole_reviews_shortcode(Array, '', 'cusrev_reviews')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 H:\xampp\htdocs\naturallycurly\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(cusrev...', 'do_shortcode_ta...', '[cusrev_reviews...')
+#6 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\functions.php(198): do_shortcode('[cusrev_reviews...')
+#7 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycu in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\comments.php on line 63
+
+2021-08-12T13:33:07+00:00 CRITICAL Uncaught Error: Class 'TwentyTwenty_Walker_Comment' not found in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\comments.php:63
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\comment-template.php(1554): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\plugins\customer-reviews-woocommerce\ivole.php(94): comments_template('/comments.php')
+#2 H:\xampp\htdocs\naturallycurly\wp-content\plugins\customer-reviews-woocommerce\ivole.php(86): ivole_return_comment_form('/comments.php')
+#3 H:\xampp\htdocs\naturallycurly\wp-includes\shortcodes.php(356): ivole_reviews_shortcode(Array, '', 'cusrev_reviews')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 H:\xampp\htdocs\naturallycurly\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(cusrev...', 'do_shortcode_ta...', '[cusrev_reviews...')
+#6 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\functions.php(198): do_shortcode('[cusrev_reviews...')
+#7 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycu in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\comments.php on line 63
+
+2021-08-12T13:35:00+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:36:05+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:36:52+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
+2021-08-12T13:41:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_unique_id() in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php:18
+Stack trace:
+#0 H:\xampp\htdocs\naturallycurly\wp-includes\general-template.php(308): require()
+#1 H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\404.php(24): get_search_form(Array)
+#2 H:\xampp\htdocs\naturallycurly\wp-includes\template-loader.php(106): include('H:\\xampp\\htdocs...')
+#3 H:\xampp\htdocs\naturallycurly\wp-blog-header.php(19): require_once('H:\\xampp\\htdocs...')
+#4 H:\xampp\htdocs\naturallycurly\index.php(17): require('H:\\xampp\\htdocs...')
+#5 {main}
+  thrown in H:\xampp\htdocs\naturallycurly\wp-content\themes\naturallycurly\searchform.php on line 18
+
