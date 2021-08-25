@@ -26,7 +26,7 @@ get_header(); ?>
 				<div class="row">
 				<?php
 					$args = array(
-						'post_type'=>'salons', 
+						'post_type'=>'nc-salons', 
 						'posts_per_page'=> 12,
 					);
 					

@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Add theme supports.
  */
@@ -13,6 +13,7 @@ if ( ! function_exists( 'nc_register_nav_menu' ) ) {
         register_nav_menus( array(
             'primary_menu' => __( 'Primary Menu', 'nc' ),
 			'feature_menu' => __( 'Feature Menu', 'nc' ),
+			'login_subscribe' => __( 'Login Menu', 'nc' ),
             'footer_menu'  => __( 'Footer Menu', 'nc' ),
         ) );
     }
@@ -36,6 +37,9 @@ function nc_theme_name_scripts() {
 
 	//Register Scrips
 	wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'masonry-pkgd', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'imagesloaded-pkgd', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), '1.0.0', true );
+	
 	/* wp_enqueue_script( 'index-min-js', get_template_directory_uri() . '/js/index.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'index-js', get_template_directory_uri() . '/js/index.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'index1-js', get_template_directory_uri() . '/js/index1.js', array(), '1.0.0', true ); */
@@ -54,21 +58,20 @@ function nc_salons_setup_post_type() {
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
-        'rewrite'            => array( 'slug' => 'salons' ),
+        'rewrite'            => array( 'slug' => 'salons', 'with_front' => false ),
         'capability_type'    => 'post',
-        'has_archive'        => true,
+        'has_archive'        => false,
         'hierarchical'       => true,
         'menu_position'      => null,
 		'show_admin_column'  => true,
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
 		'menu_icon' => 'dashicons-admin-home',
     );
-    register_post_type( 'salons', $args );
+    register_post_type( 'nc-salons', $args );
 }
 add_action( 'init', 'nc_salons_setup_post_type' );
 
 function create_city_tax() {
-	
 	$args = array(
         "label"        => __( "State/City", "nc" ),
         "public" => true,
@@ -77,14 +80,14 @@ function create_city_tax() {
         "show_in_menu" => true,
         "show_in_nav_menus" => true,
         "query_var" => true,
-        "rewrite" => array( 'slug' => 'search',"hierarchical" => true, 'with_front' => false ),
+        "rewrite" => array( 'slug' => 'salons/search', "hierarchical" => true, 'with_front' => true ),
         "show_admin_column" => true,
         "show_in_rest" => true,
         "rest_base" => "search",
         "show_in_quick_edit" => false,
     );
 	
-    register_taxonomy( 'city', 'salons', $args);
+    register_taxonomy( 'city', array('nc-salons'), $args);
 }
 add_action( 'init', 'create_city_tax', 0 );
 
@@ -97,17 +100,81 @@ function create_country_tax() {
         "show_in_menu" => true,
         "show_in_nav_menus" => true,
         "query_var" => true,
-        "rewrite" => array( 'slug' => 'country-search',"hierarchical" => true, 'with_front' => false ),
+        "rewrite" => array( 'slug' => 'country-search', "hierarchical" => true, 'with_front' => true ),
         "show_admin_column" => true,
         "show_in_rest" => true,
         "rest_base" => "search",
         "show_in_quick_edit" => false,
     );
 	
-    register_taxonomy( 'country', 'salons', $args);
+    register_taxonomy( 'country', array('nc-salons'), $args);
 }
 add_action( 'init', 'create_country_tax', 0 );
 
+
+/**
+ * Add Stylenook Post Type with Category.
+ */
+function nc_stylenook_setup_post_type() {
+	$args = array(
+        'label'     		 => __( 'Stylenook', 'nc' ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'stylenook', 'with_front' => false ),
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+		'show_admin_column'  => true,
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+		'menu_icon' => 'dashicons-image-filter',
+    );
+    register_post_type( 'nc-stylenook', $args );
+}
+add_action( 'init', 'nc_stylenook_setup_post_type' );
+
+function create_hairstyles_tax() {
+	$args = array(
+        "label"        => __( "Hairstyles", "nc" ),
+        "public" => true,
+        "hierarchical" => true,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'stylenook/hairstyles', "hierarchical" => true, 'with_front' => true ),
+        "show_admin_column" => true,
+        "show_in_rest" => true,
+        "rest_base" => "stylenook",
+        "show_in_quick_edit" => false,
+    );
+	
+    register_taxonomy( 'hairstyles', array('nc-stylenook'), $args);
+}
+add_action( 'init', 'create_hairstyles_tax', 0 );
+
+function create_hairtypes_tax() {
+	$args = array(
+        "label"        => __( "Hairtypes", "nc" ),
+        "public" => true,
+        "hierarchical" => true,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'stylenook/hairtypes', "hierarchical" => true, 'with_front' => true ),
+        "show_admin_column" => true,
+        "show_in_rest" => true,
+        "rest_base" => "stylenook",
+        "show_in_quick_edit" => false,
+    );
+	
+    register_taxonomy( 'hairtypes', array('nc-stylenook'), $args);
+}
+add_action( 'init', 'create_hairtypes_tax', 0 );
 
 /**
  * Add Videos Post Type with Category.
@@ -133,6 +200,31 @@ function nc_videos_setup_post_type() {
 }
 add_action( 'init', 'nc_videos_setup_post_type' );
 
+/**
+ * Add Giveaways Post Type with Category.
+ */
+function giveaways_setup_post_type() {
+	$args = array(
+        'label'     		 => __( 'Giveaways', 'nc' ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'give-aways', 'with_front' => false ),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+		'show_admin_column'  => true,
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+		'menu_icon' => 'dashicons-media-interactive',
+    );
+    register_post_type( 'give-aways', $args );
+}
+add_action( 'init', 'giveaways_setup_post_type' );
+
+/* Video Taxonomy */
 function create_videos_tax() {
     register_taxonomy( 'videos-cat', 'texture', array(
         'label'        => __( 'Videos Cat', 'nc' ),
@@ -222,9 +314,9 @@ function woo_reviews_tab_content(){
 	
 }
 
-
-
-
+/* hooks */
+register_activation_hook( __FILE__, 'remove_category_url_refresh_rules' );
+register_deactivation_hook( __FILE__, 'remove_category_url_deactivate' );
 
 /* actions */
 add_action( 'created_category', 'remove_category_url_refresh_rules' );
@@ -236,7 +328,7 @@ add_action( 'init', 'remove_category_url_permastruct' );
 add_filter( 'category_rewrite_rules', 'remove_category_url_rewrite_rules' );
 add_filter( 'query_vars', 'remove_category_url_query_vars' );    // Adds 'category_redirect' query variable
 add_filter( 'request', 'remove_category_url_request' );       // Redirects if 'category_redirect' is set
-add_filter( 'plugin_row_meta', 'remove_category_url_plugin_row_meta', 10, 4 );
+//add_filter( 'plugin_row_meta', 'remove_category_url_plugin_row_meta', 10, 4 );
 
 function remove_category_url_refresh_rules() {
 	global $wp_rewrite;
@@ -330,5 +422,20 @@ function remove_category_url_request( $query_vars ) {
 	return $query_vars;
 }
 
+add_action('wp_logout','auto_redirect_after_logout');
+function auto_redirect_after_logout(){
+  wp_safe_redirect( home_url() );
+  exit;
+}
 
-/* Custom Post Type Salons Permalink Structure*/
+//This function changes the text wherever it is quoted
+/* function change_translate_text( $translated_text ) {
+	if ( $translated_text == 'Forum:' ) {
+	$translated_text = 'Categories:';
+	}
+	if ( $translated_text == 'Forum' ) {
+	$translated_text = 'Categories';
+	}
+	return $translated_text;
+}
+add_filter( 'gettext', 'change_translate_text', 20 ); */

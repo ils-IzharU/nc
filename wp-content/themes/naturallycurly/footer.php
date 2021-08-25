@@ -1,103 +1,88 @@
 <footer class="master">
-
     <div id="suscribe-form" class="sign-up-container">
-        <div class="container">
-            
+        <div class="container page-layout-main-content">
+			<div class="row hubspot-newsletter-signup justify-content-sm-center justify-content-md-start horizontal">
+				<div class="hubspot-label-container p-3 col-md-6">
+					<label class="d-block text-center text-lg-left text-xl-left">Like what you see?</label>
+					<p class="d-block text-center text-lg-left text-xl-left">Sign up for our newsletter to get more tips and tricks</p>
+				</div>
+				<div class="col-md-6">
+					<?php echo do_shortcode('[email-subscribers-form id="1"]') ?>
+				</div>
+			</div>
         </div>
     </div>
 
     <div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<div class=" hubspot-newsletter-signup justify-content-sm-center justify-content-md-start horizontal">
-					<div class="hubspot-label-container p-3 ">
-						<label class="d-block text-center text-lg-left text-xl-left">Like what you see?</label>
-						<p class="d-block text-center text-lg-left text-xl-left">Sign up for our newsletter to get more tips and tricks</p>
-					</div>
-					<?php echo do_shortcode('[email-subscribers-form id="1"]') ?>
+		<div class="col-md-12">
+			<div class="row justify-content-center footer-links aks mt-5 mb-5 font-italic">
+				<div class="col-auto">
+					<a href="https://www.naturallycurly.com/about-us">About</a>
+				</div>
+				<div class="col-auto">
+					<a href="https://www.naturallycurly.com/contact">Contact</a>
+				</div>
+				<div class="col-auto">
+					<a href="https://www.naturallycurly.com/privacy-policy">Privacy</a>
+				</div>
+				<div class="col-auto">
+					<a href="https://www.naturallycurly.com/terms-of-use/">Terms</a>
+				</div>
+				<div class="col-auto">
+					<a href="https://www.naturallycurly.com/community-policy/">Policy</a>
 				</div>
 			</div>
-<div class="col-md-6">
-<div class="row justify-content-center footer-links aks mt-4 mb-4 font-italic">
-            <div class="col-auto">
-                <a href="https://www.naturallycurly.com/about-us">About</a>
-            </div>
-            <div class="col-auto">
-                <a href="https://www.naturallycurly.com/contact">Contact</a>
-            </div>
-            <div class="col-auto">
-                <a href="https://www.naturallycurly.com/privacy-policy">Privacy</a>
-            </div>
-            <div class="col-auto">
-                <a href="https://www.naturallycurly.com/terms-of-use/">Terms</a>
-            </div>
-            <div class="col-auto">
-                <a href="https://www.naturallycurly.com/community-policy/">Policy</a>
-            </div>
-    </div>
             <div class="row justify-content-center text-center mx-auto">
-                <div class="social-link d-flex flex-row justify-content-center align-items-center
-">
-                                                            <div>
-                <a class="facebook" href="https://www.facebook.com/naturallycurly/" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-                                                        <div>
-                <a class="pinterest" href="https://www.pinterest.com/naturallycurly/" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-pinterest-p fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-                                                                    <div>
-                <a class="twitter" href="https://twitter.com/naturallycurly" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-                                            <div>
-                <a class="instagram" href="https://www.instagram.com/naturallycurly/" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-                                <div>
-                <a class="youtube" href="https://www.youtube.com/channel/UCfWMjgi41FBXXkPLTaDluyQ" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-                                            <div>
-                <a class="email" href="mailto:Connect@naturallycurly.com" target="_blank" onclick="
-                                                                                                        return true;
-                    ">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
+                <div class="social-link d-flex flex-row justify-content-center align-items-center">
+				<div>
+					<a class="facebook" href="https://www.facebook.com/naturallycurly/" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<div>
+					<a class="pinterest" href="https://www.pinterest.com/naturallycurly/" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fab fa-pinterest-p fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<div>
+					<a class="twitter" href="https://twitter.com/naturallycurly" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<div>
+					<a class="instagram" href="https://www.instagram.com/naturallycurly/" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<div>
+					<a class="youtube" href="https://www.youtube.com/channel/UCfWMjgi41FBXXkPLTaDluyQ" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<div>
+					<a class="email" href="mailto:Connect@naturallycurly.com" target="_blank" onclick="return true;">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
             </div>
             </div>
 			
@@ -306,7 +291,8 @@ function events(){
 
 function checkStickyNavbar(){
 	//Check the navbar stickiness
-	if (window.pageYOffset >= navbarPosition) {
+	//navbarPosition
+	if ($(window).scrollTop() >= 100 ) {
 		fixedMenu.addClass("sticky");
 	} else {
 		fixedMenu.removeClass("sticky");
@@ -328,6 +314,21 @@ $('.carousel').carousel({
 })
 
 
+// init Masonry
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
+
+$('button.btn-filter').click(() => {
+	 $(".filter").toggle({speed: 'slow', easing: 'swing'});
+})
 
 </script>
 

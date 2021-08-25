@@ -138,25 +138,17 @@ get_header(); ?>
 					if(have_posts()) {
 					while(have_posts()) : the_post();
 						if( $wp_query->current_post == 3 ) { ?>
-							<div class="col-md-4 article-grid-item mb-4 d-flex flex-column post-ads">
+							<div class="col-md-6 article-grid-item mb-4 d-flex flex-column post-ads">
 								<div class="ads_script">
 									<p>Google Ads</p>
 								</div>
 							</div>
 						<?php } ?>
-						<div class="col-md-4 article-grid-item mb-4 d-flex flex-column post-<?php echo get_the_ID() ?>">
+						<div class="col-md-6 article-grid-item mb-4 d-flex flex-column post-<?php echo get_the_ID() ?>">
 							<div class="vr_latest_post">
-								<div class="content p-4">
-									<a href="<?php the_permalink() ?>" class="item-title d-block">
-										<span class="item-title" data-toggle="tooltip" data-placement="top" title="" data-original-title="<?php the_title() ?>"><?php the_title() ?></span>
-									</a>
-									<div class="pt-2 item-description" itemprop="description">
-										<?php the_excerpt() ?>
-									</div>
-								</div>
 								<figure class="mt-3 mb-0">
-									<div class="socialicon">
-										<div class="social-share d-flex justify-content-end align-items-center">
+									<div class="social">
+										<div class="social-share justify-content-end align-items-center">
 											<div class="d-block">
 												<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_the_permalink() ?>&title=<?php the_title() ?>" target="_blank">
 													<span class="fa-stack fa-lg">
@@ -187,6 +179,14 @@ get_header(); ?>
 										<img class="img-fluid mx-auto" itemprop="image" alt="<?php the_title() ?>" src="<?php echo get_the_post_thumbnail_url() ?>">
 									</a>
 								</figure>
+								<div class="content p-4">
+									<a href="<?php the_permalink() ?>" class="item-title d-block">
+										<span class="item-title" data-toggle="tooltip" data-placement="top" title="" data-original-title="<?php the_title() ?>"><?php the_title() ?></span>
+									</a>
+									<div class="pt-2 item-description" itemprop="description">
+										<?php the_excerpt() ?>
+									</div>
+								</div>
 							</div>
 						</div>
 					<?php endwhile;

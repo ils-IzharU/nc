@@ -9,7 +9,7 @@
 	
 <body <?php body_class('default-plain has-canvas') ?>>
 	<div class="navbar-custom">
-		<div class="nav-placeholder"><div class="fixed-menu sticky">
+		<div class="nav-placeholder"><div class="fixed-menu">
 			<div class="row mx-0 background-content">
 				<nav class="navbar navbar-expand-lg collapse-sidebar">
 		<div class="navbar-top-part row">
@@ -25,7 +25,7 @@
 					</button>
 				</div>
 			</div>
-			<div class="col-8 col-sm-9 col-xl-8">
+			<div class="col-7 col-sm-8 col-xl-7">
 				<div class="navbar-center-container">
 					<a class="navbar-logo-container" href="">
 						<img class="nc-logo" src="<?php bloginfo('template_url') ?>/images/naturallycurly.png">
@@ -33,26 +33,25 @@
 					<div class="nav_container"><?php wp_nav_menu(array('theme_location'=>'primary_menu')) ?></div>
 			   </div>
 			</div>
-			<div class="col-2 col-sm-1 col-xl-2">
+			<div class="col-3 col-sm-1 col-xl-3 pr-0">
 			   <div class="navbar-right-container">
-				  <div class="navbar-items-container">
-					 <ul class="navbar-nav">
-						<li class="nav-item dropdown">
-						   <a id="navbarDropdown8" class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
-							  <div id="shopping-cart-button" class="child-right-container" style="display: block;"><i class="fas fa-shopping-cart"><mark class="number-cart-items" style="display: inline;">1</mark></i> <span class="menu-text">My Cart</span></div>
-						   </a>
-						</li>
-						<li class="nav-item dropdown subscribe">
-						   <a id="navbarDropdown9" class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
-							  <div id="subscribe-button" class="child-right-container" style="display: block;"><i class="far fa-envelope"></i><span class="menu-text">SUBSCRIBE</span></div>
-						   </a>
-						</li>
-					 </ul>
-				  </div>
-			   </div>
+					<div class="navbar-items-container">
+						<?php wp_nav_menu(array('theme_location'=>'login_subscribe', 'container'=>'ul', 'menu_class'=>'login_logout_menu')) ?>
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown search">
+								<a href="" class="nav-link dropdown-toggle"><i class="fa fa-search"></i></a>
+							</li>
+							<li class="nav-item dropdown">
+							   <a id="navbarDropdown8" class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+								  <div id="shopping-cart-button" class="child-right-container" style="display: block;"><i class="fas fa-shopping-cart"><mark class="number-cart-items" style="display: inline;">1</mark></i></div>
+							   </a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="navbar-bottom-part" style="">
+		<div class="navbar-bottom-part d-none" style="">
 			<?php 
 			$loginli = '<li class="subnavbar-item subnavbar-item-login">
 			<a id="navbarDropdown16" class="subnav-link" href="javascript:void(0)">
@@ -141,8 +140,15 @@
 </div>
 <?php if(is_front_page()){ ?>
 <div class="header_message">
-	<div class="container page-layout-main-content test">
-		<p class="text-center message"><strong>Tip of the day:</strong> Try Natural Treatment For Healthy Curly Hair
+	<div class="c_container c-page-layout-main-content">
+		<marquee width="100%" loop="infinite">
+			<ul>
+				<li>THE NATURAL HAIR SWIM CAPS BANNED FROM THE TOKYO OLYMPICS.</li>
+				<li>IF PLOPPING DOESN'T WORK</li>
+				<li>THE NATURAL HAIR SWIM CAPS BANNED FROM THE TOKYO OLYMPICS.</li>
+			</ul>
+		</marquee>
+		<p class="text-center message d-none"><strong>Tip of the day:</strong> Try Natural Treatment For Healthy Curly Hair
 	</div>
 </div>
 <?php } ?>
